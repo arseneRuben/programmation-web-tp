@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact page</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+
+    <body>
+        <div class="contact">
+            <main>
+                <form action="serveur.php">
+                    <fieldset>
+                        <legend>Identification</legend>
+                        <div><label for="firstname">Pr&eacute;nom</label><input type="text" name="firstname"
+                                id="firstname">
+                        </div>
+                        <div><label for="familyName">Nom de famille</label><input type="text" name="familyName"
+                                id="familyName">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+
+                        <legend>Addresse</legend>
+                        <div>
+                            <label for="adress">Addresse</label>
+                        </div><input type="text" name="adress" id="adress" placeholder="123 boul. Maisonneuve"
+                            size="100">
+
+
+                        <p>Num&eacute;ro civique et nom de rue</p>
+                        <label for="city">Ville</label><input type="text" name="city" id="city"><label for="postal">Code
+                            postal</label><input type="text" name="postal" id="postal">
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Pr&eacute;f&eacute;rences</legend>
+                        <p>Langue de communication</p>
+                        <div><input type="radio" name="language" id="Anglais" value="Anglais"><label
+                                for="language">Anglais</label> </div>
+                        <div><input type="radio" name="language" id="Francais" value="Francais"><label
+                                for="language">Francais</label> </div>
+                        <div><input type="radio" name="language" id="Espagnol" value="Espagnol" checked><label
+                                for="language">Espagnol</label> </div>
+                        <div><label for="language">Je d&eacute;sire &ecirc;tre inform&eacute;</label><input
+                                type="checkbox" name="newproducts" id="language" checked></div>
+                        <div><label for="information">De nouveaux produits</label><input type="checkbox"
+                                name="reduction" id="information" checked></div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Choix de sites</legend>
+
+                        <legend>Historiques</legend>
+                        <input type="checkbox" name="site" value="canal_lachine">Canal de LaChine<br>
+                        <input type="checkbox" name="site" value="suqre">Superbe Square<br>
+                        <input type="checkbox" name="site" value="youville">Place d'Youville<br>
+
+                    </fieldset>
+                    <input type="submit" value="Soumettre">
+                </form>
+            </main>
+        </div>
+    </body>
+
+</html>

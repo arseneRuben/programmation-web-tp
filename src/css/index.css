@@ -52,7 +52,10 @@ footer {}
 
 .contact aside {}
 
-.contact main {}
+.contact main {
+    width: 80%;
+    margin: auto;
+}
 
 .contact main form {
     /** Spécifique pour l'intégration du formulaire de contact **/
