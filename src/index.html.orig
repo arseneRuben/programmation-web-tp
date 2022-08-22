@@ -65,7 +65,16 @@
         <footer>
             <div>
                 <div>
+<<<<<<< HEAD
                     <a href="./index.html"><img src="./images/facebook-f-brands.svg" alt="icone Facebook"></a>
+
+=======
+                    <section>
+                        <a href="./index.html"><img src="./images/facebook-f-brands.svg" alt="icone Facebook"></a>
+                        <a href="./index.html"><img src="./images/square-twitter-brands.svg" alt="Icone instagram"></a>
+                    </section>
+>>>>>>> 98fe5d056449886c3cd5fd760293a3b394c63742
+
                     <a href="./index.html"><img src="./images/square-twitter-brands.svg" alt="Icone instagram"></a>
                 </div>
 

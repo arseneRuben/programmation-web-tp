@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+        <title>Accueil</title>
+
+
+    </head>
+
+    <body>
+        <div class="home">
+            <header>
+                <nav>
+                    <img src="./images/LogoBonjourMontrealVille.svg" alt="Logo Bonjour MOntreal">
+                    <span><a href="">Accueil</a></span>
+                    <span><a href="">Visiter</a></span>
+                    <span><a href="">Comparer</a></span>
+                    <span><a href="">Réserver</a></span>
+                    <input type="search" placeholder="Rechercher">
+                </nav>
+                <div class="banner">
+                    <img src="./images/montreal-506130_1920.jpg" alt="Montreal la nuit">
+                    <h1>Visites guidées pour découvrir Montréal</h1>
+                    <span><a href="./index.html">Explorer</a></span>
+                </div>
+            </header>
+            <aside>
+                <span>Partagez</span>
+                <a href=""><img src="../images/facebook-brands.svg" alt="icone Facebook"></a>
+                <a href=""><img src="../images/twitter-brands.svg" alt="icone instagram"></a>
+                <a href=""><img src="../images/google-plus-brands.svg" alt="icone Facebook"></a>
+                <a href=""><img src="../images/linkedin-brands.svg" alt="icone Facebook"></a>
+                <a href=""><img src="../images/instagram-brands.svg" alt="icone instagram"></a>
+                <a href=""><img src="../images/whatsapp-brands.svg" alt="icone instagram"></a>
+                <a href=""><img src="../images/pinterest-brands.svg" alt="icone instagram"></a>
+                <a href=""><img src="../images/telegram-brands.svg" alt="icone instagram"></a>
+            </aside>
+            <main>
+
+                <form action="serveur.php">
+                    <h3>
+                        Reservez vos visites a Montreal
+                    </h3>
+                    <fieldset>
+                        <legend>Identification</legend>
+                        <select name="title" id="">
+                            <option value="mme"><Span>Mme</Span></option>
+                            <option value="mr">Mr</option>
+                        </select>
+                        <div><label for="firstname">Pr&eacute;nom</label><input type="text" name="firstname"
+                                id="firstname">
+                        </div>
+                        <div><label for="familyName">Nom de famille</label><input type="text" name="familyName"
+                                id="familyName">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+
+                        <legend>Addresse</legend>
+                        <div>
+                            <label for="adress">Addresse</label>
+                        </div><input type="text" name="adress" id="adress" placeholder="123 boul. Maisonneuve"
+                            size="100">
+
+
+                        <p>Num&eacute;ro civique et nom de rue</p>
+                        <label for="city">Ville</label><input type="text" name="city" id="city"><label for="postal">Code
+                            postal</label><input type="text" name="postal" id="postal">
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Choix de sites</legend>
+
+                        <legend>Historiques</legend>
+                        <input type="checkbox" name="site" value="canal_lachine">Canal de LaChine<br>
+                        <input type="checkbox" name="site" value="suqre">Superbe Square<br>
+                        <input type="checkbox" name="site" value="youville">Place d'Youville<br>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Pr&eacute;f&eacute;rences</legend>
+                        <p>Langue de communication</p>
+                        <div><input type="radio" name="language" id="Anglais" value="Anglais"><label
+                                for="language">Anglais</label> </div>
+                        <div><input type="radio" name="language" id="Francais" value="Francais"><label
+                                for="language">Francais</label> </div>
+                        <div><input type="radio" name="language" id="Espagnol" value="Espagnol" checked><label
+                                for="language">Espagnol</label> </div>
+                        <div><label for="language">Je d&eacute;sire &ecirc;tre inform&eacute;</label><input
+                                type="checkbox" name="newproducts" id="language" checked></div>
+                        <div><label for="information">De nouveaux produits</label><input type="checkbox"
+                                name="reduction" id="information" checked></div>
+                    </fieldset>
+
+                    <input type="submit" value="Soumettre">
+                </form>
+
+            </main>
+            <footer>
+                <div>
+                    <section>
+                        <a href="./index.html"><img src="./images/facebook-f-brands.svg" alt="icone Facebook"></a>
+                        <a href="./index.html"><img src="./images/square-twitter-brands.svg" alt="Icone instagram"></a>
+                    </section>
+
+                    <section>
+                        <header>À Propos</header>
+                        <span>Pour nous joindre : <strong>boujourmontreal@visite.com</strong></span>
+                        <span>Credits : Leonie St-Onge &amp; Arsene Fokam Poka ©</span>
+                    </section>
+
+                    <section><span>Partenaires</span>
+                        <img src="./images/2560px-Jardin_botanique_Montréal_(logo).svg.png" alt="logo jardin botanique">
+                        <img src="./images/logo_quartier_des_spectacles.png" alt="logo quartier des spectacles">
+                        <img src="./images/logo_vieux_port_montreal.jpg" alt="logo vieux port">
+                        <img src="./images/logo-montreal.jpg" alt="logo ville de montreal">
+                    </section>
+
+                </div>
+            </footer>
+        </div>
+    </body>
+
+</html>
