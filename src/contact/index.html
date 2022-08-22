@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
-        <title>Accueil</title>
+        <title>Contact</title>
 
 
     </head>
@@ -49,53 +49,67 @@
                     </h3>
                     <fieldset>
                         <legend>Identification</legend>
-                        <select name="title" id="">
-                            <option value="mme"><Span>Mme</Span></option>
-                            <option value="mr">Mr</option>
-                        </select>
-                        <div><label for="firstname">Pr&eacute;nom</label><input type="text" name="firstname"
-                                id="firstname">
-                        </div>
-                        <div><label for="familyName">Nom de famille</label><input type="text" name="familyName"
-                                id="familyName">
-                        </div>
-                    </fieldset>
-                    <fieldset>
-
-                        <legend>Addresse</legend>
                         <div>
-                            <label for="adress">Addresse</label>
-                        </div><input type="text" name="adress" id="adress" placeholder="123 boul. Maisonneuve"
-                            size="100">
-
-
-                        <p>Num&eacute;ro civique et nom de rue</p>
-                        <label for="city">Ville</label><input type="text" name="city" id="city"><label for="postal">Code
-                            postal</label><input type="text" name="postal" id="postal">
+                            <input type="radio" name="gender" id="mme"><label for="mme">Mme</label>
+                            <input type="radio" name="gender" id="mr"><label for="mr">Mr</label>
+                        </div>
+                        <div><label for="name">Nom complet</label><input type="text" name="name" id="name">
+                        </div>
+                        <div><label for="email">Email</label><input type="text" name="email" id="email">
+                        </div>
+                        <div><label for="city">Ville</label><input type="text" name="city" id="city">
+                        </div>
+                        <div><label for="postal">Code postal</label><input type="text" name="postal" id="postal">
+                        </div>
 
                     </fieldset>
-                    <fieldset>
-                        <legend>Choix de sites</legend>
 
-                        <legend>Historiques</legend>
-                        <input type="checkbox" name="site" value="canal_lachine">Canal de LaChine<br>
-                        <input type="checkbox" name="site" value="suqre">Superbe Square<br>
-                        <input type="checkbox" name="site" value="youville">Place d'Youville<br>
+                    <fieldset>
+                        <legend>Reservations</legend>
+
+                        <section>
+                            <p for="historique">Histoire</p>
+                            <input type="checkbox" value="history1" name="site"><label>Canal de LaChine</label>
+                            <input type="checkbox" value="history2" name="site"><label>Superbe Square</label>
+                        </section>
+                        <section>
+                            <p for="sport">Sport</p>
+                            <input type="checkbox" value="sport1" name="site"><label>Stade Olympique</label>
+                            <input type="checkbox" value="sport2" name="site"><label>circuits gilles villeneuve</label>
+                        </section>
+                        <section>
+                            <p for="urbain">Urbain</p>
+                            <input type="checkbox" value="latin" name="site"><label>Quartier latin</label>
+                            <input type="checkbox" value="bourse" name="site"><label>Tour de la bourse</label>
+                        </section>
+                        <section>
+                            <p for="nature">Nature</p>
+                            <input type="checkbox" value="montroyal" name="site"> <label>Parc du mont royal</label>
+                            <input type="checkbox" value="jardin" name="site"><label>Jardin botanique</label>
+                        </section>
+                        <section>
+                            <p for="culture">Culture</p>
+                            <input type="checkbox" value="sat" name="site"><label>sat montreal</label>
+                            <input type="checkbox" value="mac" name="site"><label>musee mac</label>
+                        </section>
+                        <section>
+                            <p for="restaurant">Restaurant</p>
+                            <input type="checkbox" value="toke" name="site"><label>Toke</label>
+                            <input type="checkbox" value="truite" name="site"><label>Ma grosse truie chérie</label>
+
+
+                        </section>
 
                     </fieldset>
                     <fieldset>
                         <legend>Pr&eacute;f&eacute;rences</legend>
                         <p>Langue de communication</p>
-                        <div><input type="radio" name="language" id="Anglais" value="Anglais"><label
-                                for="language">Anglais</label> </div>
-                        <div><input type="radio" name="language" id="Francais" value="Francais"><label
-                                for="language">Francais</label> </div>
-                        <div><input type="radio" name="language" id="Espagnol" value="Espagnol" checked><label
-                                for="language">Espagnol</label> </div>
-                        <div><label for="language">Je d&eacute;sire &ecirc;tre inform&eacute;</label><input
-                                type="checkbox" name="newproducts" id="language" checked></div>
-                        <div><label for="information">De nouveaux produits</label><input type="checkbox"
-                                name="reduction" id="information" checked></div>
+                        <select name="lang" id="lang">
+                            <option value="francais">francais</option>
+                            <option value="anglais">anglais</option>
+                        </select>
+                        <p>Autres</p>
+                        <textarea name="other" id="other" cols="30" rows="10"></textarea>
                     </fieldset>
 
                     <input type="submit" value="Soumettre">
@@ -105,7 +119,7 @@
             <footer>
                 <div>
                     <section>
-                        <a href="./index.html"><img src="./images/facebook-f-brands.svg" alt="icone Facebook"></a>
+                        <a href="./index.html"><img src="./images/facebook-f-brands.svg" alt="Icone Facebook"></a>
                         <a href="./index.html"><img src="./images/square-twitter-brands.svg" alt="Icone instagram"></a>
                     </section>
 
