@@ -10,7 +10,17 @@
 
 /** Sémantique permettant un aspect constant sur toute l'application **/
 
-header {}
+header>img {
+    width: 30%;
+}
+
+header>span {
+    width: 10%;
+}
+
+header>div {
+    width: 15%;
+}
 
 nav {}
 
