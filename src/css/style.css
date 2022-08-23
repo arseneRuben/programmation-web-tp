@@ -7,44 +7,95 @@
 /** Chargement des polices **/
 
 /** Déclaration du box-sizing **/
-
-/** Sémantique permettant un aspect constant sur toute l'application **/
-header {
-    background-color: #8993A2;
-
+* {
+    box-sizing: border-box;
 }
 
+/** Sémantique permettant un aspect constant sur toute l'application **/
+
+/*--------------HEADER---------------------------*/
+
 header>nav {
-    height: 270px;
+    max-height: 220px;
+    position: relative;
+    min-width: 1000px;
+    margin: 0 0 30px 0;
 }
 
 header>nav>* {
     vertical-align: middle;
+    text-align: center;
 }
 
 header>nav>img {
     width: 20%;
-    margin: 0 5% 0 0;
+    margin: 0 10% 0 0;
+}
+
+header>nav>span>a {
+    position: relative;
+    display: inline-block;
+    height: 90px;
+    border: 1px solid #DAE2EF;
+    border-radius: 10px;
+}
+
+header>nav>span>a:hover {
+    border: 1px solid #414957;
 }
 
 header>nav>span>a>img {
     width: 60px;
+    height: 65px;
     margin: 0 2%;
 }
 
-header>nav>div {
-    display: inline-block;
-    background-color: red;
-
+header>nav>span>a>span {
+    color: black;
+    text-decoration: none;
+    visibility: hidden;
 }
 
-header>div>input {
-    width: 8%;
+header>nav>span>a:hover>span {
+    visibility: visible;
+}
+
+/*Barre de recherche*/
+header>nav>div {
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    right: 2%;
+    top: 40%;
+}
+
+header>nav>div>input {
+    width: 200px;
+    height: 40px;
 }
 
 header>nav>div>img {
-    width: 60px;
+    width: 30px;
+    vertical-align: middle;
 }
+
+header>div {
+    position: relative;
+}
+
+header>div>video {
+    width: 100%;
+}
+
+header>div>h1 {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    font-size: 80px;
+    text-shadow: #FFF 1px 0 2px;
+}
+
+/*-----------------------------------------------------------*/
 
 nav {}
 
