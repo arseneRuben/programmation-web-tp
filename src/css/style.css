@@ -9,17 +9,41 @@
 /** Déclaration du box-sizing **/
 
 /** Sémantique permettant un aspect constant sur toute l'application **/
+header {
+    background-color: #8993A2;
 
-header>img {
-    width: 30%;
 }
 
-header>span {
-    width: 10%;
+header>nav {
+    height: 270px;
 }
 
-header>div {
-    width: 15%;
+header>nav>* {
+    vertical-align: middle;
+}
+
+header>nav>img {
+    width: 20%;
+    margin: 0 5% 0 0;
+}
+
+header>nav>span>a>img {
+    width: 60px;
+    margin: 0 2%;
+}
+
+header>nav>div {
+    display: inline-block;
+    background-color: red;
+
+}
+
+header>div>input {
+    width: 8%;
+}
+
+header>nav>div>img {
+    width: 60px;
 }
 
 nav {}
