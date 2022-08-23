@@ -20,6 +20,10 @@ main {}
 
 footer {}
 
+body {
+    background-color: #DAE2EF;
+}
+
 /**
     Déclaration spécifique a chaque page au besoin.
     Chaque personne travaille sur une page à la fois donc il ne devrait jamais y avoir de conflit.

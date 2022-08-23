@@ -1,18 +1,63 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+<<<<<<< HEAD:src/catalogue/index.html
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonjour Montreal - Visites</title>
+</head>
+=======
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bonjour Montreal - Visites</title>
+        <title>Bonjour Montreal - Catalogue des visites</title>
     </head>
+>>>>>>> d2bd808879da109007e427ee1a9a435d6e0e8131:src/catalogue/catalogue.html
 
     <body>
         <div class="catalogue">
             <header>
                 <nav>
 
+<<<<<<< HEAD:src/catalogue/index.html
+                <img src="../images/icons_nav/LogoBonjourMontrealVille.svg" alt="Logo Bonjour Montreal">
+                <span><a href="../index.html"><img src="../images/icons_nav/house-solid.svg" alt="Accueil"></a></span>
+                <span><a href="../catalogue/catalogue.html"><img src="../images/icons_nav/images-solid.svg"
+                            alt="Catalogue"></a></span>
+                <span><a href="../galerie/galerie.html"><img src="../images/icons_nav/camera-retro-solid.svg"
+                            alt="Galerie"></a></span>
+                <span><a href="../tableau/tableau.html"><img src="../images/icons_nav/scale-balanced-solid.svg"
+                            alt="Balance"></a></span>
+                <span><a href="../contact/index.html"><img src="../images/icons_nav/pen-to-square-regular.svg"
+                            alt="Réserver"></a></span>
+                <div><input type="search" placeholder="Rechercher"><img src="../images/icons_nav/searchengin-brands.svg"
+                        alt="Comparer"></div>
+            </nav>
+            <div class="banner">
+                <img src="./images/carreStLouis.jpg" alt="Carre St-Louis">
+                <h1>Visites</h1>
+                <span><a href="../index.html"><img src="../images/icons_nav/house-solid.svg" alt="Accueil"></a></span>
+            </div>
+        </header>
+        <aside>
+            <span>Partagez</span>
+            <a href=""><img src="../images/icons_social_network/aside-facebook-brands.svg" alt="icone Facebook"></a>
+            <a href=""><img src="../images/icons_social_network/aside-square-instagram-brands.svg"
+                    alt="icone instagram"></a>
+            <a href=""><img src="../images//icons_social_network/aside-google-plus-brands.svg" alt="icone Google+"></a>
+            <a href=""><img src="../images/icons_social_network/aside-linkedin-brands.svg" alt="icone LinkedIn"></a>
+            <a href=""><img src="../images/icons_social_network/aside-square-twitter-brands.svg"
+                    alt="icone twitter"></a>
+            <a href=""><img src="../images/icons_social_network/aside-square-whatsapp-brands.svg"
+                    alt="icone Whatsapp"></a>
+            <a href=""><img src="../images/icons_social_network/aside-pinterest-brands.svg" alt="icone Pinterest"></a>
+            <a href=""><img src="../images/icons_social_network/aside-telegram-brands.svg" alt="icone Telegram"></a>
+        </aside>
+        <main>
+=======
                     <img src="../images/icons_nav/LogoBonjourMontrealVille.svg" alt="Logo Bonjour Montreal">
                     <span><a href="../index.html"><img src="../images/icons_nav/house-solid.svg"
                                 alt="Accueil"></a></span>
@@ -29,7 +74,7 @@
                 </nav>
                 <div class="banner">
                     <img src="./images/carreStLouis.jpg" alt="Carre St-Louis">
-                <h1>Visites</h1>
+                    <h1>Catalogue</h1>
                     <span><a href="../index.html"><img src="../images/icons_nav/house-solid.svg"
                                 alt="Accueil"></a></span>
                 </div>
@@ -55,6 +100,7 @@
                             alt="icone Telegram"></a>
                 </aside>
                 <main>
+>>>>>>> d2bd808879da109007e427ee1a9a435d6e0e8131:src/catalogue/catalogue.html
 
                     <article class="description"> <img src="../images/Culture/SAT_entropia-1.jpg" alt="SAT">
                         <a href="../detail/images/detail.html">

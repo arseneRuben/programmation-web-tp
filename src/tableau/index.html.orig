@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+<<<<<<< HEAD:src/tableau/index.html
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonjour Montreal - Détails des visites</title>
+</head>
+=======
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bonjour Montreal - Détails des visites</title>
+        <title>Bonjour Montreal - Comparateur d'experience</title>
     </head>
+>>>>>>> d2bd808879da109007e427ee1a9a435d6e0e8131:src/tableau/tableau.html
 
     <body>
         <div class="tableau">
             <header>
                 <nav>
 
-                    <img src="../images/icons_nav/LogoBonjourMontrealVille.svg" alt="Logo Bonjour Montreal">
-                    <span><a href="../index.html"><img src="../images/icons_nav/house-solid.svg"
-                                alt="Accueil"></a></span>
-                    <span><a href="../catalogue/catalogue.html"><img src="../images/icons_nav/images-solid.svg"
-                                alt="Catalogue"></a></span>
-                    <span><a href="../galerie/galerie.html"><img src="../images/icons_nav/camera-retro-solid.svg"
-                                alt="Galerie"></a></span>
-                    <span><a href="../tableau/tableau.html"><img src="../images/icons_nav/scale-balanced-solid.svg"
-                                alt="Balance"></a></span>
-                    <span><a href="../contact/index.html"><img src="../images/icons_nav/pen-to-square-regular.svg"
-                                alt="Réserver"></a></span>
-                    <div><input type="search" placeholder="Rechercher"><img
-                            src="../images/icons_nav/searchengin-brands.svg" alt="Comparer"></div>
-                </nav>
-                <div class="banner">
-                    <img src="./images/completementCirque.jpg" alt="Complement cirque">
+<<<<<<< HEAD:src/tableau/index.html
+                <img src="../images/LogoBonjourMontrealVille.svg" alt="Logo Bonjour Montreal">
+                <span><a href="../index.html"><img src="../images/house-solid.svg" alt="Accueil"></a></span>
+                <span><a href="../catalogue/catalogue.html"><img src="../images/images-solid.svg"
+                            alt="Catalogue"></a></span>
+                <span><a href="../galerie/galerie.html"><img src="../images/camera-retro-solid.svg"
+                            alt="Galerie"></a></span>
+                <span><a href="../tableau/tableau.html"><img src="../images/scale-balanced-solid.svg"
+                            alt="Balance"></a></span>
+                <span><a href="../contact/index.html"><img src="../images/pen-to-square-regular.svg"
+                            alt="Réserver"></a></span>
+                <div><input type="search" placeholder="Rechercher"><img src="../images/searchengin-brands.svg"
+                        alt="Comparer"></div>
+            </nav>
+            <div class="banner">
+                <img src="./images/completementCirque.jpg" alt="Complement cirque">
                 <h1>Détails des visites</h1>
-                </div>
-            </header>
 
-            <main>
-                <div>
+            </div>
+        </header>
+
+        <main>
+            <div>
 
                 <table>
                     <thead>
@@ -173,6 +183,84 @@
 
 
 
+                <div class="row3">
+                    <span class="col1">Quartier Latin</span>
+                    <span class="col2"><img src="../images/themes/building-solid.svg" alt="Urbain"></span>
+                    <span class="col3"><span>
+                            <img src="./images/star-solid.svg" alt="etoile">
+                            <img src="./images/star-solid.svg" alt="etoile">
+                            <img src="./images/star-solid.svg" alt="etoile">
+                            <img src="./images/star-solid.svg" alt="etoile">
+                            <img src="./images/star-solid.svg" alt="etoile">
+                        </span></span>
+                    <span class="col4">2 h</span>
+                    <span class="col5">900 Pl. Jean-Paul-Riopelle, Montréal</span>
+                    <span class="col6">$ 45</span>
+                    <!--Attention mettre a jour le lien vers la page detail-->
+                    <span class="col7"><a href="../detail/images/detail.html"><img src="../images/eye-regular.svg"
+                                alt="voir"></a></span>
+                </div>
+                <div class="row4">
+                    <span class="col1">Oratoire St-Joseph</span>
+                    <span class="col2"><img src="../images/themes/fort-awesome-brands.svg" alt="Historique"></span>
+                    <span class="col3">
+                        <span>
+                            <img src="./images/star-solid.svg" alt="etoile">
+                            <img src="./images/star-solid.svg" alt="etoile">
+                            <img src="./images/star-solid.svg" alt="etoile">
+                            <img src="./images/star-solid.svg" alt="etoile">
+                            <img src="./images/star-half-stroke-solid.svg" alt="demi-etoile">
+=======
+                    <img src="../images/icons_nav/LogoBonjourMontrealVille.svg" alt="Logo Bonjour Montreal">
+                    <span><a href="../index.html"><img src="../images/icons_nav/house-solid.svg"
+                                alt="Accueil"></a></span>
+                    <span><a href="../catalogue/catalogue.html"><img src="../images/icons_nav/images-solid.svg"
+                                alt="Catalogue"></a></span>
+                    <span><a href="../galerie/galerie.html"><img src="../images/icons_nav/camera-retro-solid.svg"
+                                alt="Galerie"></a></span>
+                    <span><a href="../tableau/tableau.html"><img src="../images/icons_nav/scale-balanced-solid.svg"
+                                alt="Balance"></a></span>
+                    <span><a href="../contact/index.html"><img src="../images/icons_nav/pen-to-square-regular.svg"
+                                alt="Réserver"></a></span>
+                    <div><input type="search" placeholder="Rechercher"><img
+                            src="../images/icons_nav/searchengin-brands.svg" alt="Comparer"></div>
+                </nav>
+                <div class="banner">
+                    <img src="./images/completementCirque.jpg" alt="Complement cirque">
+                    <h1>Comparateur</h1>
+                </div>
+            </header>
+
+            <main>
+                <div>
+                    <div class="row1">
+                        <span class="col1"></span>
+                        <img class="col2" src="./images/tag-solid.svg" alt="theme">
+                        <img class="col3" src="./images/thumbs-up-solid.svg" alt="appreciation">
+                        <img class="col4" src="./images/clock-solid.svg" alt="duree">
+                        <img class="col5" src="../images/location-pin-solid.svg" alt="Lieu">
+                        <img class="col6" src="./images/dollar-sign-solid.svg" alt="Prix">
+                        <span class="col7"></span>
+                    </div>
+                    <div class="row2">
+                        <span class="col1">Tour de la Bourse</span>
+                        <span class="col2"><img src="../images/themes/building-solid.svg" alt="Urbain"></span>
+                        <span class="col3">
+                            <span>
+                                <img src="./images/star-solid.svg" alt="etoile">
+                                <img src="./images/star-solid.svg" alt="etoile">
+                                <img src="./images/star-solid.svg" alt="etoile">
+                                <img src="./images/star-solid.svg" alt="etoile">
+                                <img src="./images/star-half-stroke-solid.svg" alt="demi-etoile">
+                            </span>
+                        </span>
+                        <span class="col4">45 min</span>
+                        <span class="col5">900 Pl. Jean-Paul-Riopelle, Montréal</span>
+                        <span class="col6">$ 30</span>
+                        <!--Attention mettre a jour le lien vers la page detail-->
+                        <span class="col7"><a href="../detail/images/detail.html"><img src="../images/eye-regular.svg"
+                                    alt="voir"></a></span>
+                    </div>
                     <div class="row3">
                         <span class="col1">Quartier Latin</span>
                         <span class="col2"><img src="../images/themes/building-solid.svg" alt="Urbain"></span>
@@ -201,6 +289,7 @@
                                 <img src="./images/star-solid.svg" alt="etoile">
                                 <img src="./images/star-half-stroke-solid.svg" alt="demi-etoile">
                             </span>
+>>>>>>> d2bd808879da109007e427ee1a9a435d6e0e8131:src/tableau/tableau.html
                         </span>
                         <span class="col4">2 h</span>
                         <span class="col5">900 Pl. Jean-Paul-Riopelle, Montréal</span>
