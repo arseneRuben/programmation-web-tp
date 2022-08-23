@@ -48,7 +48,9 @@ header>nav>div>img {
 
 nav {}
 
-aside {}
+aside img {
+    width: 40px;
+}
 
 main {}
 
@@ -56,6 +58,9 @@ footer {}
 
 body {
     background-color: #DAE2EF;
+    width: 96%;
+    margin: auto;
+
 }
 
 /**
@@ -90,10 +95,7 @@ body {
 
 .contact aside {}
 
-.contact main {
-    width: 80%;
-    margin: auto;
-}
+.contact main {}
 
 .contact main form {
     /** Spécifique pour l'intégration du formulaire de contact **/
