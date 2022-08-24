@@ -322,28 +322,7 @@ body {
 
 
 
-/*--------------PAGE DETAIL, ne rien changer svp----------------*/
-.detail header .banner {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-
-
-.detail main header {
-    width: 80%;
-    margin: auto;
-}
-
-.detail main header p {
-    background-color: red;
-}
-
-.detail main header+div img {
-
-    width: 20%;
-}
+/*--------------PAGE DETAIL, ne rien changer svp----------------
 
 .detail .banner img {
     width: 30%;
@@ -358,14 +337,43 @@ body {
     width: 40%;
     margin: 20px;
     ;
+}*/
+
+
+.detail main header {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+.detail main header p {}
+
+.detail main header img {
+
+    border-radius: 10px;
+    width: 30%;
+
+}
+
+.detail main header h2 {
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+.detail main header+div img {
+
+    width: 20%;
+}
+
+
 
 /*--------------FIN PAGE DETAILS----------------*/
 
 
 
 /*--------------PAGE GALERIE, ne rien changer svp----------------*/
-.galerie main table img {
+.galerie main ul img {
     width: 40%;
 }
 
