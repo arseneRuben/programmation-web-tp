@@ -143,9 +143,9 @@ aside img {
     display: block;
 }
 
-aside {
+/* aside {
     float: left;
-}
+} */
 
 main {}
 
@@ -228,41 +228,75 @@ body {
 /** Example pour les cas spécifiques de la page home **/
 
 /*--------------PAGE ACCUEIL, ne rien changer svp----------------*/
-.home>div {
-    display: inline-block;
-    height: 600px;
-    background-color: pink;
+.home {
+    text-align: center;
 }
 
-.home>div>aside {
-    width: 5%;
+.home aside {
+    width: 60px;
     display: inline-block;
     vertical-align: top;
-    background-color: red;
+    margin: 20px auto;
+
 }
 
-.home aside>a {
-    display: block;
-    margin: 0 0 10px 0;
+.home aside>a>img {
+    /* display: block; */
+    margin: 0 0 40px 0;
+
 }
 
 .home main {
     text-align: center;
     display: inline-block;
-    width: 94%;
-    background-color: yellow;
+    width: 90%;
+    vertical-align: top;
+    margin: 20px auto 40px auto;
+
 }
 
 .home main>article>img {
-    /* height: 350px; */
-    width: 400px;
+    width: 350px;
+    height: 500px;
 }
 
-
+.home main>article>h2 {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    font-size: 50px;
+    background-color: rgba(194, 206, 211, 0.75);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-shadow: #02141b 2px 0 2px;
+}
 
 .home main>article {
     display: inline-block;
-    width: 33%;
+    width: 350px;
+    margin: 0 10px 40px 0;
+    vertical-align: top;
+    position: relative;
+
+}
+
+.home main>article>span {
+    display: block;
+}
+
+.home main>article>span>a>img {
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    /* text-align: center; */
+    height: 50px;
+    bottom: 5%;
+    right: 1%;
+    z-index: 30;
+    background-color: rgba(194, 206, 211, 0.75);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 /*--------------FIN PAGE ACCUEIL----------------*/
