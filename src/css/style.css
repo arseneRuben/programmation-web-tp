@@ -315,28 +315,79 @@ body {
 
 /*--------------PAGE CATALOGUE, ne rien changer svp----------------*/
 .catalogue aside {
-    width: 5%;
+    width: 60px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px auto;
 }
 
 .catalogue aside>a>img {
-    display: block;
+    /* display: block; */
+    margin: 0 0 40px 0;
+}
 
+.catalogue main {
+    text-align: center;
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+    margin: 20px auto 40px auto;
+}
+
+.catalogue main img {
+    width: 20%;
+    display: inline-block;
+}
+
+.catalogue article>div:first-of-type {
+    margin: 20px 30px 30px 30px;
+}
+
+.catalogue article>div {
+    display: block;
+    text-align: left;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: #8993A2;
+}
+
+.catalogue article a {
+    text-decoration: none;
+    color: white;
+}
+
+.catalogue h3 {
+    color: white;
+    font-size: 35px;
+    background-color: rgba(194, 206, 211, 0.75);
+    border-radius: 10px;
+    text-shadow: #02141b 1px 0 2px;
+}
+
+.catalogue article>div>div {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 60%;
+}
+
+.catalogue article>div>img {
+    display: inline-block;
+    margin: 20px 20px 20px 60px;
+    vertical-align: middle;
+    border-radius: 10px;
+
+}
+
+#pagination {
+    height: 50px;
 }
 
 .catalogue #pagination a img {
     width: 40px;
     height: 40px;
-    margin: 0 10%;
+    margin: 0 5%;
 
-}
-
-.catalogue main img {
-    width: 20%;
-
-}
-
-.catalogue .description div {
-    display: inline-block;
 }
 
 /*--------------FIN PAGE CATALOGUE----------------*/
