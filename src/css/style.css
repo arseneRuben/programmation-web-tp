@@ -140,6 +140,11 @@ header>div>h1 {
 
 aside img {
     width: 40px;
+    display: block;
+}
+
+aside {
+    float: left;
 }
 
 main {}
