@@ -35,16 +35,6 @@ img {
     max-width: 1300px;
 }
 
-img.star {
-    width: 20px;
-    ;
-}
-
-img.avatar {
-    border-radius: 50%;
-    width: 10%;
-}
-
 /*--------------HEADER, ne rien modifier svp-----------------*/
 body {
     background-color: #DAE2EF;
@@ -151,7 +141,7 @@ header>div>h1 {
 /*---------------------------SECTION MAIN--------------------------*/
 
 main {
-    margin-left: 10%;
+    margin-left: 7%;
 }
 
 /*---------------------------END SECTION MAIN--------------------------*/
@@ -162,10 +152,14 @@ aside img {
     display: block;
 }
 
+<<<<<<< HEAD
 /* aside {
+=======
+aside {
     width: 5%;
     display: block;
 
+>>>>>>> bc2bc45cd163923397aec8bab57e2f2137de8b25
     float: left;
 } */
 
@@ -325,81 +319,28 @@ body {
 
 /*--------------PAGE CATALOGUE, ne rien changer svp----------------*/
 .catalogue aside {
-    width: 60px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 20px auto;
+    width: 5%;
 }
-
-
 
 .catalogue aside>a>img {
-    /* display: block; */
-    margin: 0 0 40px 0;
-}
-
-.catalogue main {
-    text-align: center;
-    display: inline-block;
-    width: 90%;
-    vertical-align: top;
-    margin: 20px auto 40px auto;
-}
-
-.catalogue main img {
-    width: 20%;
-    display: inline-block;
-}
-
-.catalogue article>div:first-of-type {
-    margin: 20px 30px 30px 30px;
-}
-
-.catalogue article>div {
     display: block;
-    text-align: left;
-    margin: 30px;
-    border-radius: 10px;
-    background-color: #8993A2;
-}
 
-.catalogue article a {
-    text-decoration: none;
-    color: white;
-}
-
-.catalogue h3 {
-    color: white;
-    font-size: 35px;
-    background-color: rgba(194, 206, 211, 0.75);
-    border-radius: 10px;
-    text-shadow: #02141b 1px 0 2px;
-}
-
-.catalogue article>div>div {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    width: 60%;
-}
-
-.catalogue article>div>img {
-    display: inline-block;
-    margin: 20px 20px 20px 60px;
-    vertical-align: middle;
-    border-radius: 10px;
-
-}
-
-#pagination {
-    height: 50px;
 }
 
 .catalogue #pagination a img {
     width: 40px;
     height: 40px;
-    margin: 0 5%;
+    margin: 0 10%;
 
+}
+
+.catalogue main img {
+    width: 20%;
+
+}
+
+.catalogue .description div {
+    display: inline-block;
 }
 
 /*--------------FIN PAGE CATALOGUE----------------*/
@@ -455,15 +396,7 @@ body {
     margin-right: 10%;
 }
 
-.detail .command>* {
-    display: inline-block;
-    width: 45%;
-}
-
-.detail main header>* {
-    display: inline-block;
-    margin: 2% 2%;
-}
+.detail main header p {}
 
 .detail main header img {
 
@@ -483,104 +416,7 @@ body {
     width: 20%;
 }
 
-.detail main div.content {
-    padding: 20px 10%;
-    background-color: whitesmoke;
-    color: #2b3e5f;
-    width: 80%;
-    margin: auto;
-    font: Poppins bold 16px/2 cursive;
-}
 
-.detail main div.content div img {
-    margin: 10px 10px;
-    border-radius: 5px;
-}
-
-.detail main div.content div:nth-child(1) img {
-    float: left;
-
-}
-
-.detail main div.content div:nth-child(2) {
-    clear: both;
-}
-
-.detail main div.content div:nth-child(2) img {
-    float: right;
-}
-
-.detail main div.content div:nth-child(3) {
-    clear: both;
-}
-
-.detail .command {
-    text-align: right;
-    width: 80%;
-    margin-top: 5%;
-    padding-bottom: 5%;
-}
-
-
-.detail .comments article img {
-    float: left;
-}
-
-.detail .comments article:nth-child(2) {
-    clear: both;
-}
-
-.detail .comments article {
-    vertical-align: bottom;
-    margin-left: 20%;
-    margin-bottom: 100px;
-}
-
-.detail .comments article div.quote {
-
-    margin-left: 20%;
-
-
-}
-
-.detail button {
-    font-size: larger;
-    width: 30%;
-}
-
-/*
-.detail main div.content img:nth-child(1) {
-    float: left;
-}
-
-.detail main div.content img:nth-child(2) {
-    text-align: right;
-
-}*/
-
-
-
-
-
-.detail .details .info {
-    width: 35%;
-    display: inline-block;
-}
-
-.detail .mapouter {
-    position: relative;
-    text-align: center;
-
-    width: 60%;
-    display: inline-block;
-}
-
-.detail #gmap_canvas {
-    width: 60%;
-    height: 200;
-    text-align: center;
-
-}
 
 /*--------------FIN PAGE DETAILS----------------*/
 
@@ -591,22 +427,17 @@ body {
     width: 90%;
     border-radius: 5px;
     margin-top: 3%;
-}
 
-.galerie aside li {
-    height: 40px;
-}
-
-.galerie aside li a:visited, .galerie aside li a:link {
-    text-decoration: none;
 }
 
 .galerie main ul {
     text-align: left;
+
 }
 
 .galerie li {
     list-style-type: none;
+
 }
 
 .galerie main li div {
@@ -616,6 +447,7 @@ body {
 }
 
 .galerie main article li p {
+
     position: absolute;
     top: 30%;
     left: 20%;
@@ -625,8 +457,10 @@ body {
     padding: 10px;
     color: white;
     text-shadow: #02141b 2px 0 2px;
+
     display: none;
     z-index: 10;
+
 }
 
 .galerie main article li a:hover p {
