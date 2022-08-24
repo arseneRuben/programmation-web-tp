@@ -393,7 +393,102 @@ body {
 /*--------------FIN PAGE CATALOGUE----------------*/
 
 /*--------------PAGE TABLEAU, ne rien changer svp----------------*/
+main.tableau {
+    margin: auto;
+}
 
+.tableau table {
+    width: 90%;
+    margin: 30px auto 40px auto;
+    text-align: center;
+}
+
+.tableau caption {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.tableau tr, th, td {
+    border: 4px solid #DAE2EF;
+    border-radius: 10px;
+    margin: 85px 2px;
+}
+
+.tableau tr img.star {
+    width: 15px;
+    /* background-color: firebrick; */
+}
+
+.tableau tbody>tr>img {
+    width: 20px;
+}
+
+.tableau td.col1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tableau tbody td.col2 {
+    /* border: 1px solid #414957;
+    border-radius: 10px; */
+}
+
+.tableau td.col1 {
+    background-color: #8993A2;
+    border-radius: 10px;
+}
+
+.tableau td.col2>img {
+    width: 30px;
+}
+
+.tableau td.col6 {
+    background-color: #8993A2;
+    width: 1%;
+    border-radius: 70%;
+}
+
+.tableau td.col7>a>span {
+    visibility: hidden;
+}
+
+.tableau td.col7 {
+    width: 60px;
+    border: 1px solid #414957;
+    border-radius: 10px;
+}
+
+.tableau td.col7>a {
+    text-decoration: none;
+    padding: 10%;
+    color: black;
+}
+
+.tableau td.col7>a>img {
+    width: 40px;
+}
+
+.tableau td.col7>a:hover>span {
+    visibility: visible;
+}
+
+.tableau thead th>img {
+    width: 50px;
+    height: 40px;
+}
+
+.tableau th {
+    text-align: center;
+    height: 30px;
+}
+
+.tableau tbody>tr:nth-child(odd) {
+    background-color: rgba(190, 156, 98, 0.35);
+}
+
+.tableau tbody>tr:nth-child(even) {
+    background-color: rgba(137, 147, 162, 0.35);
+}
 
 /*--------------FIN PAGE TABLEAU----------------*/
 
