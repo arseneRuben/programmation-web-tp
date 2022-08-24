@@ -152,10 +152,14 @@ aside img {
     display: block;
 }
 
+<<<<<<< HEAD
 /* aside {
+=======
+aside {
     width: 5%;
     display: block;
 
+>>>>>>> bc2bc45cd163923397aec8bab57e2f2137de8b25
     float: left;
 } */
 
