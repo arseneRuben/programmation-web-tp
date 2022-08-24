@@ -377,4 +377,8 @@ body {
     width: 40%;
 }
 
-/*--------------FIN GALERIE DETAILS----------------*/
+.galerie li {
+    list-style-type: none;
+}
+
+/*--------------FIN GALERIE ----------------*/
