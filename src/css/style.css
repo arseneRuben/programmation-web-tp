@@ -274,6 +274,23 @@ body {
 
 .catalogue aside>a>img {
     display: block;
+
+}
+
+.catalogue #pagination a img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10%;
+
+}
+
+.catalogue main img {
+    width: 20%;
+
+}
+
+.catalogue .description div {
+    display: inline-block;
 }
 
 /*--------------FIN PAGE CATALOGUE----------------*/
@@ -285,6 +302,7 @@ body {
 
 /** Example pour les cas spécifiques de la page contact **/
 
+/*--------------PAGE CONTACT, ne rien changer svp----------------*/
 .contact header {}
 
 .contact nav {}
@@ -300,7 +318,55 @@ body {
 
 .contact footer {}
 
+/*--------------FIN PAGE CONTACT----------------*/
 
-.galerie main table img {
-    width: 50%;
+
+
+/*--------------PAGE DETAIL, ne rien changer svp----------------*/
+.detail header .banner {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+
+
+.detail main header {
+    width: 80%;
+    margin: auto;
+}
+
+.detail main header p {
+    background-color: red;
+}
+
+.detail main header+div img {
+
+    width: 20%;
+}
+
+.detail .banner img {
+    width: 30%;
+
+}
+
+.detail .banner h1 {
+    text-align: right;
+    font-size: 40px;
+    right: 5%;
+    top: 5%;
+    width: 40%;
+    margin: 20px;
+    ;
+}
+
+/*--------------FIN PAGE DETAILS----------------*/
+
+
+
+/*--------------PAGE GALERIE, ne rien changer svp----------------*/
+.galerie main table img {
+    width: 40%;
+}
+
+/*--------------FIN GALERIE DETAILS----------------*/
