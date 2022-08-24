@@ -138,16 +138,28 @@ header>div>h1 {
 
 /*---------------------------FIN DU HEADER--------------------------*/
 
+/*---------------------------SECTION MAIN--------------------------*/
+
+main {
+    margin-left: 7%;
+}
+
+/*---------------------------END SECTION MAIN--------------------------*/
+
+/*---------------------------SECTION ASIDE--------------------------*/
 aside img {
     width: 40px;
     display: block;
 }
 
 aside {
+    width: 5%;
+    display: block;
+
     float: left;
 }
 
-main {}
+
 
 /*-----------------FOOTER, ne rien modifier svp ------------------*/
 footer {
@@ -374,11 +386,47 @@ body {
 
 /*--------------PAGE GALERIE, ne rien changer svp----------------*/
 .galerie main ul img {
-    width: 40%;
+    width: 90%;
+    border-radius: 5px;
+    margin-top: 3%;
+
+}
+
+.galerie main ul {
+    text-align: left;
+
 }
 
 .galerie li {
     list-style-type: none;
+
+}
+
+.galerie main li div {
+    width: 45%;
+    display: inline-block;
+    position: relative;
+}
+
+.galerie main article li p {
+
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 20px;
+    background-color: rgba(194, 206, 211, 0.75);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-shadow: #02141b 2px 0 2px;
+
+    display: none;
+    z-index: 10;
+
+}
+
+.galerie main article li a:hover p {
+    display: block;
 }
 
 /*--------------FIN GALERIE ----------------*/
