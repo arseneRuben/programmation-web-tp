@@ -20,24 +20,27 @@
     src: url("../images/Fonts/Poppins/Poppins-Regular.ttf");
 }
 
-/** Déclaration du box-sizing **/
+/*Police de caractere par defaut pour tout le site, ne pas changer svp*/
 * {
-    box-sizing: border-box;
     font-family: "UnicaOne";
 }
 
-/** Sémantique permettant un aspect constant sur toute l'application **/
+/** Déclaration du box-sizing, ne pas toucher svp **/
+* {
+    box-sizing: border-box;
+}
 
-/*--------------HEADER---------------------------*/
+/** Sémantique permettant un aspect constant sur toute l'application **/
+img {
+    max-width: 1300px;
+}
+
+/*--------------HEADER, ne rien modifier svp-----------------*/
 body {
     background-color: #DAE2EF;
     width: 96%;
     max-width: 1400px;
     margin: auto;
-}
-
-img {
-    max-width: 1300px;
 }
 
 header>nav {
@@ -133,9 +136,7 @@ header>div>h1 {
     text-shadow: #02141b 2px 0 2px;
 }
 
-/*-----------------------------------------------------------*/
-
-nav {}
+/*---------------------------FIN DU HEADER--------------------------*/
 
 aside img {
     width: 40px;
@@ -148,7 +149,7 @@ aside {
 
 main {}
 
-/*-----------------FOOTER-------------------------*/
+/*-----------------FOOTER, ne rien modifier svp ------------------*/
 footer {
     width: 80%;
     margin: auto;
@@ -207,7 +208,7 @@ footer>div>a {
     margin: auto;
 }
 
-/*------------------------------------------------*/
+/*----------------------FIN DU FOOTER--------------------------*/
 
 body {
     background-color: #DAE2EF;
@@ -226,19 +227,61 @@ body {
 
 /** Example pour les cas spécifiques de la page home **/
 
-.home header {}
-
-.home nav {}
-
-.home aside {}
-
-.home main {}
-
-.home main div.photo {
-    border: 1px solid black;
+/*--------------PAGE ACCUEIL, ne rien changer svp----------------*/
+.home>div {
+    display: inline-block;
+    height: 600px;
+    background-color: pink;
 }
 
-.home footer {}
+.home>div>aside {
+    width: 5%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: red;
+}
+
+.home aside>a {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.home main {
+    text-align: center;
+    display: inline-block;
+    width: 94%;
+    background-color: yellow;
+}
+
+.home main>article>img {
+    /* height: 350px; */
+    width: 400px;
+}
+
+
+
+.home main>article {
+    display: inline-block;
+    width: 33%;
+}
+
+/*--------------FIN PAGE ACCUEIL----------------*/
+
+/*--------------PAGE CATALOGUE, ne rien changer svp----------------*/
+.catalogue aside {
+    width: 5%;
+}
+
+.catalogue aside>a>img {
+    display: block;
+}
+
+/*--------------FIN PAGE CATALOGUE----------------*/
+
+/*--------------PAGE TABLEAU, ne rien changer svp----------------*/
+
+
+/*--------------FIN PAGE TABLEAU----------------*/
 
 /** Example pour les cas spécifiques de la page contact **/
 
