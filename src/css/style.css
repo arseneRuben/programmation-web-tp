@@ -256,3 +256,8 @@ body {
 }
 
 .contact footer {}
+
+
+.galerie main table img {
+    width: 50%;
+}
