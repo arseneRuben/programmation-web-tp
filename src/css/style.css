@@ -119,22 +119,15 @@ header>nav>div>img {
     box-sizing: content-box;
     display: inline-block;
     max-width: 1300px;
-    /*new*/
-    text-align: center;
 }
 
 header>div {
     display: inline-block;
     position: relative;
-    /*new*/
-    text-align: center;
 }
 
 header>div>video {
     width: 100%;
-    /*new*/
-    /* width: 1055px; */
-    /* height: 702px; */
     margin: auto;
 }
 
@@ -155,14 +148,6 @@ header>div>h1 {
     text-shadow: #02141b 2px 0 2px;
 }
 
-button, .button {
-    font-size: larger;
-    width: 30%;
-    display: inline;
-    text-decoration: none;
-    color: #2b3e5f;
-}
-
 /*---------------------------FIN DU HEADER--------------------------*/
 
 /*---------------------------SECTION MAIN--------------------------*/
@@ -171,7 +156,7 @@ main {
 
     text-align: center;
     display: inline-block;
-    width: 75%;
+    width: 85%;
     vertical-align: top;
     margin: 20px auto 40px auto;
     margin-left: 10%;
@@ -191,14 +176,6 @@ aside img {
     width: 40px;
     display: block;
     margin: 0 0 40px 0;
-}
-
-aside a:visited, aside a:link {
-
-    text-decoration: none;
-    color: #2b3e5f;
-
-
 }
 
 /*-----------------FOOTER, ne rien modifier svp ------------------*/
@@ -228,7 +205,6 @@ footer div:first-of-type>strong, div.contact>span:first-of-type>strong {
     margin: 0 0 40px 0;
 }
 
-/*-------------*/
 
 footer div:first-of-type a>img {
     height: 40px;
@@ -308,24 +284,13 @@ body {
     left: 12%;
 }
 
-/* .home aside {
-    width: 60px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 20px auto;
-
-} */
-
 .home aside>a>img {
     margin: 0 0 40px 0;
 
 }
 
 .home main {
-    text-align: center;
-    display: inline-block;
     width: 90%;
-    vertical-align: top;
     margin: 20px auto 40px auto;
 
 }
@@ -390,14 +355,6 @@ body {
 .catalogue header h1 {
     left: 40%;
 }
-
-.catalogue aside {
-    width: 60px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 20px auto;
-}
-
 
 
 .catalogue aside>a>img {
@@ -498,7 +455,6 @@ main.tableau {
 
 .tableau tr img.star {
     width: 15px;
-    /* background-color: firebrick; */
 }
 
 .tableau tbody>tr>img {
@@ -574,6 +530,13 @@ main.tableau {
 /*--------------PAGE CONTACT, ne rien changer svp----------------*/
 
 
+.contact main {
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+    margin-left: 8%;
+}
+
 .contact main form {
     /** Spécifique pour l'intégration du formulaire de contact **/
     border: 2px solid black;
@@ -624,12 +587,6 @@ main.tableau {
     background-color: white;
     /* This ruins default border */
     border: 1px solid #888;
-}
-
-.contact form fieldset:nth-of-type(3)>div>div {
-    display: inline-block;
-    width: 30%;
-
 }
 
 /*--------------FIN PAGE CONTACT----------------*/
@@ -761,6 +718,10 @@ main.tableau {
 
 }
 
+.detail button {
+    font-size: larger;
+    width: 30%;
+}
 
 /*
 .detail main div.content img:nth-child(1) {
