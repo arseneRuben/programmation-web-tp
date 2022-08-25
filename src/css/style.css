@@ -461,13 +461,18 @@ body {
 /*--------------FIN PAGE CATALOGUE----------------*/
 
 /*--------------PAGE TABLEAU, ne rien changer svp----------------*/
+body>.tableau {
+    text-align: center;
+}
+
 main.tableau {
+    width: 90%;
     margin: auto;
 }
 
 .tableau table {
     width: 90%;
-    margin: 30px auto 40px auto;
+    margin: 30px auto 70px auto;
     text-align: center;
     font-family: "Poppins";
 }
