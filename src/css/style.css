@@ -618,6 +618,12 @@ main.tableau {
     border: 1px solid #888;
 }
 
+.contact form fieldset:nth-of-type(3)>div>div {
+    display: inline-block;
+    width: 30%;
+
+}
+
 /*--------------FIN PAGE CONTACT----------------*/
 
 
