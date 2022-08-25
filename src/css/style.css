@@ -37,7 +37,6 @@ img {
 
 img.star {
     width: 20px;
-    ;
 }
 
 img.avatar {
@@ -53,19 +52,20 @@ body {
     margin: auto;
 }
 
+header {
+    text-align: center;
+}
+
 header>nav {
     position: relative;
     margin: 0 0 30px 0;
 }
 
-header>nav>* {
-    vertical-align: middle;
-    text-align: center;
-}
 
 header>nav>img {
     width: 20%;
-    margin: 0 10% 0 0;
+    margin: 0 3% 0 0;
+    vertical-align: bottom;
 }
 
 header>nav>span>a {
@@ -100,7 +100,8 @@ header>nav>span>a:hover>span {
 header>nav>div {
     display: inline-block;
     width: 240px;
-    margin: 0 3% 0 5%;
+    margin: 0 3% 0 2%;
+    vertical-align: 35px;
 }
 
 header>nav>div>input {
@@ -115,18 +116,26 @@ header>nav>div>img {
 
 /*Baniere video ou photo*/
 .home>header>div {
+    box-sizing: content-box;
     display: inline-block;
     max-width: 1300px;
+    /*new*/
+    text-align: center;
 }
 
 header>div {
     display: inline-block;
     position: relative;
-
+    /*new*/
+    text-align: center;
 }
 
 header>div>video {
     width: 100%;
+    /*new*/
+    /* width: 1055px; */
+    /* height: 702px; */
+    margin: auto;
 }
 
 header>div>img {
@@ -157,23 +166,18 @@ main {
 /*---------------------------END SECTION MAIN--------------------------*/
 
 /*---------------------------SECTION ASIDE--------------------------*/
+aside {
+    display: inline-block;
+}
+
 aside img {
     width: 40px;
     display: block;
 }
 
-/* aside {
-    width: 5%;
-    display: block;
-
-    float: left;
-} */
-
-
-
 /*-----------------FOOTER, ne rien modifier svp ------------------*/
 footer {
-    width: 80%;
+    width: 90%;
     margin: auto;
     border: 1px solid #8993A2;
     border-radius: 10px;
@@ -184,14 +188,29 @@ footer {
 footer>div {
     display: inline-block;
     width: 33%;
-    height: 200px;
-    text-align: left;
-    vertical-align: middle;
+    text-align: center;
+    vertical-align: top;
 }
 
 footer img {
-    height: 60px;
+    height: 80px;
     margin: 0 0 15px 0;
+}
+
+/*Marge sous les titres "Suivez-nous" et "Nous Joindre"*/
+footer div:first-of-type>strong, div.contact>span:first-of-type>strong {
+    margin: 0 0 40px 0;
+}
+
+/*-------------*/
+
+footer div:first-of-type a>img {
+    height: 40px;
+    margin: 0 0 15px 0;
+}
+
+footer div:first-of-type a:last-of-type>img {
+    margin: 0 0 5px 0;
 }
 
 footer>div>strong, footer>div>span:first-of-type>strong {
@@ -206,7 +225,7 @@ footer>div>a {
 
 }
 
-.contact, .partenaires {
+footer .contact, .partenaires {
     text-align: center;
 }
 
@@ -223,11 +242,14 @@ footer>div>a {
     text-decoration: underline;
 }
 
+.partenaires {
+    padding: 0 20px;
+}
+
 .partenaires img {
     display: inline-block;
-
-    height: 30%;
-    margin: auto;
+    width: 90px;
+    margin: 20px;
 }
 
 /*----------------------FIN DU FOOTER--------------------------*/
@@ -254,6 +276,12 @@ body {
     text-align: center;
 }
 
+
+.home header>div>h1 {
+    top: 30%;
+    left: 12%;
+}
+
 .home aside {
     width: 60px;
     display: inline-block;
@@ -263,7 +291,6 @@ body {
 }
 
 .home aside>a>img {
-    /* display: block; */
     margin: 0 0 40px 0;
 
 }
@@ -311,7 +338,6 @@ body {
     position: absolute;
     display: inline-block;
     margin: auto;
-    /* text-align: center; */
     height: 50px;
     bottom: 5%;
     right: 1%;
@@ -324,6 +350,10 @@ body {
 /*--------------FIN PAGE ACCUEIL----------------*/
 
 /*--------------PAGE CATALOGUE, ne rien changer svp----------------*/
+.catalogue header h1 {
+    left: 40%;
+}
+
 .catalogue aside {
     width: 60px;
     display: inline-block;
@@ -334,7 +364,6 @@ body {
 
 
 .catalogue aside>a>img {
-    /* display: block; */
     margin: 0 0 40px 0;
 }
 
@@ -372,7 +401,7 @@ body {
     color: white;
     font-size: 35px;
     background-color: rgba(194, 206, 211, 0.75);
-    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
     text-shadow: #02141b 1px 0 2px;
 }
 
@@ -388,7 +417,6 @@ body {
     margin: 20px 20px 20px 60px;
     vertical-align: middle;
     border-radius: 10px;
-
 }
 
 #pagination {
@@ -396,10 +424,9 @@ body {
 }
 
 .catalogue #pagination a img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin: 0 5%;
-
 }
 
 /*--------------FIN PAGE CATALOGUE----------------*/
@@ -413,17 +440,18 @@ main.tableau {
     width: 90%;
     margin: 30px auto 40px auto;
     text-align: center;
+    font-family: "Poppins";
 }
 
 .tableau caption {
     font-size: 45px;
     font-weight: bold;
+    margin: 0 0 40px 0;
 }
 
 .tableau tr, th, td {
     border: 4px solid #DAE2EF;
     border-radius: 10px;
-    margin: 85px 2px;
 }
 
 .tableau tr img.star {
@@ -440,10 +468,6 @@ main.tableau {
     font-weight: bold;
 }
 
-.tableau tbody td.col2 {
-    /* border: 1px solid #414957;
-    border-radius: 10px; */
-}
 
 .tableau td.col1 {
     background-color: #8993A2;
@@ -466,8 +490,7 @@ main.tableau {
 
 .tableau td.col7 {
     width: 60px;
-    border: 1px solid #414957;
-    border-radius: 10px;
+    background-color: #C2CED3;
 }
 
 .tableau td.col7>a {
@@ -511,9 +534,19 @@ main.tableau {
 
 .contact nav {}
 
-.contact aside {}
+.contact aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 7%;
+    margin: 60px 0 0 0;
+}
 
-.contact main {}
+.contact main {
+    display: inline-block;
+    vertical-align: top;
+    width: 85%;
+    margin: 60px 0 60px 2%;
+}
 
 .contact main form {
     /** Spécifique pour l'intégration du formulaire de contact **/
@@ -584,7 +617,8 @@ main.tableau {
     color: #2b3e5f;
     width: 80%;
     margin: auto;
-    font: Poppins bold 16px/2 cursive;
+    font-family: "Poppins";
+    font: bold 16px/2 cursive;
 }
 
 .detail main div.content div img {
@@ -616,9 +650,22 @@ main.tableau {
     padding-bottom: 5%;
 }
 
+.detail .comments article {
+    position: relative;
+    height: 200px;
+    text-align: center;
+}
 
-.detail .comments article img {
-    float: left;
+.detail .comments div.quote {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.detail .comments article img.avatar {
+    position: absolute;
+    top: 0;
+    left: 10%;
 }
 
 .detail .comments article:nth-child(2) {
@@ -672,7 +719,7 @@ main.tableau {
 
 .detail #gmap_canvas {
     width: 60%;
-    height: 200;
+    height: 200px;
     text-align: center;
 
 }
