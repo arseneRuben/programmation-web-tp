@@ -566,13 +566,12 @@ main.tableau {
     width: 30%;
 }
 
-.contact form fieldset:nth-of-type(1)>div input {
-    background: url(../images/bacground_image1.jpg) center center no-repeat;
+.contact form fieldset div input {
+    background-color: white;
+
 }
 
-.contact form fieldset:nth-of-type(2)>div input {
-    background: url(../images/bacground_image1.jpg) center center no-repeat;
-}
+
 
 
 .contact form fieldset:nth-of-type(1)>div label {
@@ -597,7 +596,7 @@ main.tableau {
 
 .contact form fieldset:nth-of-type(3)>textarea {
     width: 50%;
-    background: url(../images/bacground_image1.jpg) center center no-repeat;
+    background-color: white;
     /* This ruins default border */
     border: 1px solid #888;
 }
@@ -807,7 +806,7 @@ main.tableau {
     position: absolute;
     top: 30%;
     left: 20%;
-    font-size: 20px;
+    font-size: 1rem;
     background-color: rgba(194, 206, 211, 0.75);
     border-radius: 10px;
     padding: 10px;
@@ -815,6 +814,7 @@ main.tableau {
     text-shadow: #02141b 2px 0 2px;
     display: none;
     z-index: 10;
+
 }
 
 .galerie main article li a:hover p {
