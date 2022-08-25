@@ -317,6 +317,7 @@ body {
 .home main>article>img {
     width: 350px;
     height: 500px;
+    border-radius: 10px;
 }
 
 .home main>article>h2 {
@@ -355,6 +356,16 @@ body {
     background-color: rgba(194, 206, 211, 0.75);
     border-radius: 10px;
     padding: 10px;
+}
+
+.home main>article.photo>img {
+    position: relative;
+}
+
+.home main>article.photo h2 {
+    position: absolute;
+
+    left: 14%;
 }
 
 /*--------------FIN PAGE ACCUEIL----------------*/
