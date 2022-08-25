@@ -163,7 +163,7 @@ main {
 
     text-align: center;
     display: inline-block;
-    width: 85%;
+    width: 75%;
     vertical-align: top;
     margin: 20px auto 40px auto;
     margin-left: 10%;
@@ -183,6 +183,14 @@ aside img {
     width: 40px;
     display: block;
     margin: 0 0 40px 0;
+}
+
+aside a:visited, aside a:link {
+
+    text-decoration: none;
+    color: #2b3e5f;
+
+
 }
 
 /*-----------------FOOTER, ne rien modifier svp ------------------*/
@@ -557,13 +565,6 @@ main.tableau {
 
 /*--------------PAGE CONTACT, ne rien changer svp----------------*/
 
-
-.contact main {
-    display: inline-block;
-    vertical-align: top;
-    width: 75%;
-    margin-left: 8%;
-}
 
 .contact main form {
     /** Spécifique pour l'intégration du formulaire de contact **/
