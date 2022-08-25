@@ -155,6 +155,14 @@ header>div>h1 {
     text-shadow: #02141b 2px 0 2px;
 }
 
+button, .button {
+    font-size: larger;
+    width: 30%;
+    display: inline;
+    text-decoration: none;
+    color: #2b3e5f;
+}
+
 /*---------------------------FIN DU HEADER--------------------------*/
 
 /*---------------------------SECTION MAIN--------------------------*/
@@ -753,10 +761,6 @@ main.tableau {
 
 }
 
-.detail button {
-    font-size: larger;
-    width: 30%;
-}
 
 /*
 .detail main div.content img:nth-child(1) {
